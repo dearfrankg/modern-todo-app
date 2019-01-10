@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Helpers: getItemsLeftLabel(): should return correctly when is it has just a single todo 1`] = `
+<span>
+  <strong>
+    1
+  </strong>
+   item left
+</span>
+`;
+
+exports[`Helpers: getItemsLeftLabel(): should return correctly when is it has more than 1 todo 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   items left
+</span>
+`;
+
+exports[`Helpers: getItemsLeftLabel(): should return correctly when is it has no todos 1`] = `
+<span>
+  0 items left
+</span>
+`;

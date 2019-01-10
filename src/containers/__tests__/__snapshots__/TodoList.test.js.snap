@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList Container: should render correctly when filter selected and some todos 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(decoreWithStore)>
+    <decoreWithStore
+      dispatch={[Function]}
+      router={
+        Object {
+          "location": Object {
+            "hash": "#/completed",
+          },
+        }
+      }
+      todos={
+        Array [
+          Object {
+            "completed": true,
+            "id": 1,
+            "text": "text",
+          },
+        ]
+      }
+    >
+      <TodoListContainer
+        dispatch={[Function]}
+        router={
+          Object {
+            "location": Object {
+              "hash": "#/completed",
+            },
+          }
+        }
+        todos={
+          Array [
+            Object {
+              "completed": true,
+              "id": 1,
+              "text": "text",
+            },
+          ]
+        }
+      >
+        <ul
+          className="todo-list"
+        >
+          <Connect(TodoItemContainer)
+            key="1"
+            todo={
+              Object {
+                "completed": true,
+                "id": 1,
+                "text": "text",
+              }
+            }
+          >
+            <TodoItemContainer
+              deleteTodo={[Function]}
+              editTodo={[Function]}
+              todo={
+                Object {
+                  "completed": true,
+                  "id": 1,
+                  "text": "text",
+                }
+              }
+              toggleTodo={[Function]}
+            >
+              <TodoItem
+                deleteTodo={[Function]}
+                editText=""
+                editing={false}
+                handleChange={[Function]}
+                handleEdit={[Function]}
+                handleKeyDown={[Function]}
+                handleSubmit={[Function]}
+                inputRef={[Function]}
+                key="1"
+                todo={
+                  Object {
+                    "completed": true,
+                    "id": 1,
+                    "text": "text",
+                  }
+                }
+                toggleTodo={[Function]}
+              >
+                <li
+                  className="completed"
+                  key="1"
+                >
+                  <div
+                    className="view"
+                  >
+                    <input
+                      checked={true}
+                      className="toggle"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      onDoubleClick={[Function]}
+                    >
+                      text
+                    </label>
+                    <button
+                      className="destroy"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <input
+                    className="edit"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    value=""
+                  />
+                </li>
+              </TodoItem>
+            </TodoItemContainer>
+          </Connect(TodoItemContainer)>
+        </ul>
+      </TodoListContainer>
+    </decoreWithStore>
+  </Connect(decoreWithStore)>
+</Provider>
+`;
+
+exports[`TodoList Container: should render correctly with SHOW_ACTIVE filter 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(decoreWithStore)>
+    <decoreWithStore
+      dispatch={[Function]}
+      router={
+        Object {
+          "location": Object {
+            "hash": "#/active",
+          },
+        }
+      }
+      todos={Array []}
+    >
+      <TodoListContainer
+        dispatch={[Function]}
+        router={
+          Object {
+            "location": Object {
+              "hash": "#/active",
+            },
+          }
+        }
+        todos={Array []}
+      >
+        <ul
+          className="todo-list"
+        />
+      </TodoListContainer>
+    </decoreWithStore>
+  </Connect(decoreWithStore)>
+</Provider>
+`;
+
+exports[`TodoList Container: should render correctly with SHOW_COMPLETED filter 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(decoreWithStore)>
+    <decoreWithStore
+      dispatch={[Function]}
+      router={
+        Object {
+          "location": Object {
+            "hash": "#/completed",
+          },
+        }
+      }
+      todos={Array []}
+    >
+      <TodoListContainer
+        dispatch={[Function]}
+        router={
+          Object {
+            "location": Object {
+              "hash": "#/completed",
+            },
+          }
+        }
+        todos={Array []}
+      >
+        <ul
+          className="todo-list"
+        />
+      </TodoListContainer>
+    </decoreWithStore>
+  </Connect(decoreWithStore)>
+</Provider>
+`;
+
+exports[`TodoList Container: should render correctly with default filter 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(decoreWithStore)>
+    <decoreWithStore
+      dispatch={[Function]}
+      router={
+        Object {
+          "location": Object {
+            "hash": "#/",
+          },
+        }
+      }
+      todos={Array []}
+    >
+      <TodoListContainer
+        dispatch={[Function]}
+        router={
+          Object {
+            "location": Object {
+              "hash": "#/",
+            },
+          }
+        }
+        todos={Array []}
+      >
+        <ul
+          className="todo-list"
+        />
+      </TodoListContainer>
+    </decoreWithStore>
+  </Connect(decoreWithStore)>
+</Provider>
+`;
+
+exports[`TodoList Container: should render correctly with default filter but hash empty[2] 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(decoreWithStore)>
+    <decoreWithStore
+      dispatch={[Function]}
+      router={
+        Object {
+          "location": Object {
+            "hash": "",
+          },
+        }
+      }
+      todos={Array []}
+    >
+      <TodoListContainer
+        dispatch={[Function]}
+        router={
+          Object {
+            "location": Object {
+              "hash": "",
+            },
+          }
+        }
+        todos={Array []}
+      >
+        <ul
+          className="todo-list"
+        />
+      </TodoListContainer>
+    </decoreWithStore>
+  </Connect(decoreWithStore)>
+</Provider>
+`;
+
+exports[`TodoList Container: should render correctly with default props 1`] = `<Connect(decoreWithStore) />`;

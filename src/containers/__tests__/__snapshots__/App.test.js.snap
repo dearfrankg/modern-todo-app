@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Container: should render correctly with default props 1`] = `<Connect(Connect(decoreWithStore)) />`;
+
+exports[`App Container: should render correctly with todos 1`] = `
+<div>
+  <section
+    className="todoapp"
+  >
+    <Connect(HeaderContainer) />
+    <div>
+      <section
+        className="main"
+      >
+        <input
+          checked={false}
+          className="toggle-all"
+          id="toggle-all"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="toggle-all"
+        >
+          Mark all as complete
+        </label>
+        <Connect(decoreWithStore) />
+      </section>
+      <Connect(Connect(decoreWithStore)) />
+    </div>
+  </section>
+  <Info />
+</div>
+`;

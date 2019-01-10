@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info: should render correctly 1`] = `
+<footer
+  className="info"
+>
+  <p>
+    Double-click to edit a todo
+  </p>
+  <p>
+    Created using by 
+    <button
+      href="#"
+    >
+      Frank Gutierrez
+    </button>
+  </p>
+  <p>
+    Inspired by 
+    <button
+      href="#"
+    >
+      Sérgio A. Kopplin
+    </button>
+  </p>
+</footer>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer: should render correctly SHOW_ACTIVE filter 1`] = `
+<footer
+  className="footer"
+/>
+`;
+
+exports[`Footer: should render correctly SHOW_ALL filter 1`] = `
+<footer
+  className="footer"
+/>
+`;
+
+exports[`Footer: should render correctly SHOW_COMPLETED filter 1`] = `
+<footer
+  className="footer"
+/>
+`;
+
+exports[`Footer: should render correctly when completed items === 0 1`] = `
+<footer
+  className="footer"
+>
+  <div>
+    <span
+      className="todo-count"
+    >
+      <span>
+        0 items left
+      </span>
+    </span>
+    <ul
+      className="filters"
+    >
+      <li>
+        <Link
+          className=""
+          replace={false}
+          to="#/"
+        >
+          All
+        </Link>
+      </li>
+      <li>
+        <Link
+          className=""
+          replace={false}
+          to="#/active"
+        >
+          Active
+        </Link>
+      </li>
+      <li>
+        <Link
+          className=""
+          replace={false}
+          to="#/completed"
+        >
+          Completed
+        </Link>
+      </li>
+    </ul>
+    <button
+      className="clear-completed"
+      onClick={[Function]}
+    >
+      Clear completed
+    </button>
+  </div>
+</footer>
+`;
+
+exports[`Footer: should render correctly with default props 1`] = `
+<footer
+  className="footer"
+/>
+`;

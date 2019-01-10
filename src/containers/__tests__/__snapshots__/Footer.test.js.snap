@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Container: should render correctly with default props [2] 1`] = `
+<FooterContainer
+  clearCompleted={[Function]}
+  router={
+    Object {
+      "location": Object {
+        "hash": "",
+      },
+    }
+  }
+  todos={Array []}
+>
+  <Footer
+    activeFilter="show_all"
+    clearCompleted={[Function]}
+    router={
+      Object {
+        "location": Object {
+          "hash": "",
+        },
+      }
+    }
+    todos={Array []}
+  >
+    <footer
+      className="footer"
+    />
+  </Footer>
+</FooterContainer>
+`;
+
+exports[`Footer Container: should render correctly with default props 1`] = `<Connect(Connect(decoreWithStore)) />`;
+
+exports[`Footer Container: should render correctly with default props 2`] = `
+<FooterContainer
+  clearCompleted={[Function]}
+  router={
+    Object {
+      "location": Object {
+        "hash": "#/",
+      },
+    }
+  }
+  todos={Array []}
+>
+  <Footer
+    activeFilter="show_all"
+    clearCompleted={[Function]}
+    router={
+      Object {
+        "location": Object {
+          "hash": "#/",
+        },
+      }
+    }
+    todos={Array []}
+  >
+    <footer
+      className="footer"
+    />
+  </Footer>
+</FooterContainer>
+`;
